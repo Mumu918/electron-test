@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>你就偷着乐吧</div>
+    <div id="info"></div>
+    <button id="test1">测试1 子向父</button>
+    <button id="test2">测试2 双向</button>
+    <div>counter: <span id="counter"></span></div>
+    <div id="drag" draggable="true">drag</div>
+    <button id="notification">发送通知</button>
+    <div id="status"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
